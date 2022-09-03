@@ -7,7 +7,7 @@ Very useful in libraries that wrap native java code in javascript
 ## Usage Example
 
 1. (optional) `yarn add google-java-format` (or `npm -i google-java-format` if you prefer)
-1. `npx google-java-format <path to java file>`
+1. `npx @willh/google-java-format <path to java file>`
 
 All arguments are passed directly to the underlying google-java-format tool, with the exception of `--glob`.
 
@@ -15,7 +15,7 @@ Multiple files as a glob must be pre-processed to avoid errors with command line
 
 ### Globbing files
 
-`npx google-java-format -i --glob=folder/**/*.java`
+`npx @willh/google-java-format -i --glob=folder/**/*.java`
 
 This will find the matching files and run `google-java-format` on chunks of 30 files at a time, then show the total
 formatted files at the end.
@@ -26,13 +26,13 @@ See [node-glob](https://github.com/isaacs/node-glob) for globbing semantics.
 
 Use the `-i` or `--replace` argument to format the files by re-writing instead of printing the changes to stdout:
 
-`npx google-java-format -i --glob=folder/**/*.java`
+`npx @willh/google-java-format -i --glob=folder/**/*.java`
 
 ### Dry-run
 
 To just check files use the `-n` (or `--dry-run`) parameter:
 
-`npx google-java-format -n --glob=folder/**/*.java`
+`npx @willh/google-java-format -n --glob=folder/**/*.java`
 
 ## Integrations
 
@@ -69,9 +69,8 @@ Go to [their repo](https://github.com/angular/clang-format), integrate it for ob
 
 ## Contributing
 
-- [Issues](https://github.com/invertase/google-java-format/issues)
-- [PRs welcome!](https://github.com/invertase/google-java-format/pulls)
-- [Code of Conduct](https://github.com/invertase/meta/blob/master/CODE_OF_CONDUCT.md)
+- [Issues](https://github.com/doggy8088/nodejs-google-java-format/issues)
+- [PRs welcome!](https://github.com/doggy8088/nodejs-google-java-format/pulls)
 
 ## License
 
