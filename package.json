@@ -1,11 +1,11 @@
 {
-  "name": "google-java-format",
-  "version": "1.0.1",
+  "name": "@willh/google-java-format",
+  "version": "0.0.1",
   "description": "node wrapper around google-java-format",
-  "author": "Invertase <oss@invertase.io> (http://invertase.io)",
+  "author": "Will Huang",
   "repository": {
     "type": "git",
-    "url": "git@github.com:invertase/google-java-format.git"
+    "url": "https://github.com/doggy8088/nodejs-google-java-format.git"
   },
   "main": "index.js",
   "bin": {
@@ -22,11 +22,11 @@
     "shipit": "nc --no-tests"
   },
   "contributors": [
+    "Will Huang <doggy.huang@gmail.com>",
     "Mike Hardy <github@mikehardy.net>"
   ],
   "keywords": [
     "java-format",
-    "react-native",
     "google-java-format",
     "java",
     "format"
